@@ -1,0 +1,47 @@
+Q1. What is an API? Give an example, where an API is used in real life.
+API is an acronym that stands for “application programming interface.” An API is a pre-existing block of code that allows two different pieces of software to talk to each other. It takes a user’s input and uses it to tell an application what action to take. Then, it delivers the response back to the user
+
+For developers, APIs can serve as shortcuts. They can plug an API into their code to do a common action, so they don’t have to waste time rewriting the code.
+
+EXAMPLES
+Universal logins: A popular API example is the function that enables people to log in to websites by using their Facebook, Twitter, or Google profile login details. This convenient feature allows any website to leverage an API from one of the more popular services for quick authentication, saving them the time and hassle of setting up a new profile for every web application or new membership.
+
+Mapping apps: In addition to the core APIs that display static or interactive maps, these apps use other APIs and features to provide users with directions, speed limits, points of interest, traffic warnings and more.users communicate with an API when plotting travel routes or tracking items on the move, such as a delivery vehicle.
+
+Q2. Give advantages and disadvantages of using API.
+Advantage- 1.Quicker Release. GUI tests have a reputation for taking longer to release products. 
+           2.Better Test Coverage. 
+           3.Ease to Shift Left. 
+           4.Faster Bug Fixes. 
+           5.Reduced Testing Costs. 
+Disadvantage- 1.API load testing does not simulate real users interacting with elements of your webpage.
+‌              2.It doesn't measure front-end performance or how quickly pages render in different browsers.
+              3.It doesn't give you an idea of how user-friendly your application is. 
+
+Q3. What is a Web API? Differentiate between API and Web API.
+ Web API- A Web API is an application programming interface for the Web. A Browser API can extend the functionality of a web browser.
+     
+Differences- 1.Both APIs and web services are technologies that enable the transfer of data between separate                      software applications. API is an interface that exposes an application's data to outside software,                  whereas web applications are one type oF API with stricter requirements.
+             2.Web service is used for REST, SOAP, and XML-RPC for communication, while API is used for any                      style of communication.
+             
+Q4. Explain REST and SOAP Architecture. Mention shortcomings of SOAP.
+*SOAP APIs
+These APIs use Simple Object Access Protocol. Client and server exchange messages using XML.
+This is a less flexible API that was more popular in the past.
+
+*REST APIs
+These are the most popular and flexible APIs found on the web today.
+The client sends requests to the server as data.
+The server uses this client input to start internal functions and returns output data back to the client.
+
+*shortcomings of SOAP
+Poorer performance, more complexity, less flexibility.
+API calls cannot be cached.
+Message format - Only XML
+
+Q5. Differentiate between REST and SOAP.
+1.SOAP stands for Simple Object Access Protocol whereas REST stands for Representational State Transfer.
+2.SOAP is a protocol whereas REST is an architectural pattern.
+3.SOAP uses service interfaces to expose its functionality to client applications while REST uses Uniform            Service locators to access to the components on the hardware device.
+4.SOAP needs more bandwidth for its usage whereas REST doesn’t need much bandwidth.
+5.SOAP cannot make use of REST whereas REST can make use of SOAP.
